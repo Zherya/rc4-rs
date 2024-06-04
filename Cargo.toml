@@ -2,6 +2,9 @@
 name = "rc4-rs"
 version = "0.1.0"
 edition = "2021"
+description = "RC4 cipher implementation with command line interface"
+license = "MIT"
+authors = ["Dmitry Zheregelya <zheregelya.d@gmail.com>"]
 
 [dependencies]
 clap = { version = "4.5.4", features = ["derive"] }
